@@ -4,25 +4,41 @@ $orange: #ed1b24;
 $fb-blue: #3b5998;
 $fb-border-blue: #29487d;
 
+// navbar
+.navbar-right {
+  margin: 5px auto;
+  width: 150px;
+}
+
 // buttons
 .btn {
-    border-bottom: 1px solid $fb-border-blue;
-    color: white;
+  border-bottom: 1px solid $fb-border-blue;
+  color: white;
 
-    &:hover,
-    &:focus {
-        color: #f5f5f5;
-    }
+  &:hover,
+  &:focus {
+    color: #f5f5f5;
+  }
 }
 
 .btn-default {
-    background: $pink; /* Old browsers */
-    background: -moz-linear-gradient(top, $pink 0%, $orange 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, $pink 0%,$orange 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, $pink 0%,$orange 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed008c', endColorstr='#ed1b24',GradientType=0 ); /* IE6-9 */
+  background: $pink; /* Old browsers */
+  background: -moz-linear-gradient(top, $pink 0%, $orange 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, $pink 0%, $orange 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, $pink 0%, $orange 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ed008c', endColorstr='#ed1b24', GradientType=0); /* IE6-9 */
+  font-size: 2em;
+  height: 39px;
+  line-height: 1;
+  margin: auto;
+  padding: 0;
+  width: 123px;
 }
 
 .btn-fb {
-    background-color: $fb-blue;
+  background-color: $fb-blue;
+}
+
+.fb-login-btn-wrapper {
+
 }
